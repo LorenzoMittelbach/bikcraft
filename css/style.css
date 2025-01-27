@@ -1,1 +1,110 @@
+:root {
+  --c12: #000000;
+  --c11: #141414;
+  --c10: #1f1f1f;
+  --c9: #2c2c2c;
+  --c8: #515151;
+  --c7: #6f6f6f;
+  --c6: #909090;
+  --c5: #c1c1c1;
+  --c4: #dedede;
+  --c3: #eaeaea;
+  --c2: #f2f2f2;
+  --c1: #f7f7f7;
+  --w: #fff;
+  --p: #ffbb00;
+  --p2: #f2a60c;
+  --p3: #b16c0b;
+  --p4: #7a3707;
+}
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-bg {
+  background-color: var(--c12);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-menu a {
+  color: var(--w);
+  display: inline-block;
+  padding: 16px 0;
+  font-size: 1.125rem;
+  position: relative;
+}
+.header-menu a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: var(--w);
+  margin-top: 4px;
+  position: absolute;
+}
+.header-menu a:hover:after {
+  width: 100%;
+  transition: 300ms;
+}
+
+@media (max-width: 800px) {
+  .header-menu {
+    gap: 20px;
+  }
+  .header-menu a {
+    background-color: var(--c11);
+    padding: 12px 16px;
+    border-radius: 5px;
+  }
+  .header-menu a:hover {
+    background-color: var(--c10);
+  }
+  .header a::after {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .header-menu {
+    gap: 12px;
+  }
+  .header-menu a {
+    padding: 8px 12px;
+    font-family: 0.875rem;
+  }
+}
