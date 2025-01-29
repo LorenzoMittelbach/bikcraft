@@ -1,7 +1,7 @@
 .botao {
   display: inline-block;
   padding: 16px 32px;
-  background: var(--p);
+  background: var(--p1);
   /* background: linear-gradient(#ffbb00, #b96300); */
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   border-radius: 5px;

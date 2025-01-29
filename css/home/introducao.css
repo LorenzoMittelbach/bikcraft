@@ -1,11 +1,9 @@
 .introducao-bg {
   background-color: var(--c12);
-  color: var(--w);
   box-shadow: inset 0 -120px var(--w);
 }
 
 .introducao {
-  color: var(--w);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px;
@@ -20,26 +18,6 @@
   gap: 32px;
   align-self: end;
   padding-bottom: 200px;
-}
-
-.introducao h1 {
-  font-size: 4rem;
-  line-height: 1.125;
-  font-family: "Poppins";
-  font-weight: 600;
-  color: var(--w);
-}
-
-.introducao span {
-  color: var(--p);
-}
-
-.introducao p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-  font-family: "Roboto";
-  font-weight: 400;
-  color: var(--c5);
 }
 
 @media (max-width: 1200px) {

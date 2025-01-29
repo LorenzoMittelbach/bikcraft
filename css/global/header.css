@@ -21,20 +21,15 @@
 }
 
 .header-menu a {
-  color: var(--w);
   display: inline-block;
   padding: 16px 0;
-  font-size: 1.125rem;
   position: relative;
-  font-family: "Poppins";
-  font-weight: 400;
 }
 .header-menu a::after {
   content: "";
   display: block;
   height: 2px;
   width: 0%;
-  background-color: var(--w);
   margin-top: 4px;
   position: absolute;
 }
