@@ -1,0 +1,25 @@
+.termos-container {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  gap: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.termos-container .termos {
+  grid-column: 1;
+}
+.termos {
+  display: grid;
+  gap: 20px;
+}
+
+.termos-item li + li {
+  margin-top: 20px;
+}
+@media (max-width: 600px) {
+  .termos-container {
+    grid-template-columns: 1fr;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
