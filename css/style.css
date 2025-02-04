@@ -10,7 +10,6 @@
 
 /* Home */
 @import "./home/introducao.css";
-@import "./home/bicicletas-lista.css";
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
@@ -20,6 +19,10 @@
 
 /* Bicicletas */
 @import "./bicicletas/bicicletas.css";
+@import "./home/bicicletas-lista.css";
+
+/* Bicicleta */
+@import "./bicicleta/bicicleta.css";
 
 /* Seguros */
 @import "./seguros/seguros.css";
