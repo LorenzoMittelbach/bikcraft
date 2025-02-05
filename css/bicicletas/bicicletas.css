@@ -69,6 +69,7 @@ p {
 .bicicletas-conteudo a {
   place-self: end;
 }
+
 .bicicletas-vantagens-item {
   display: flex;
   align-items: center;
@@ -96,5 +97,8 @@ p {
   }
   .bicicletas-conteudo a {
     place-self: start;
+  }
+  .bicicletas-vantagens li:nth-child(2) {
+    margin-top: 0;
   }
 }
