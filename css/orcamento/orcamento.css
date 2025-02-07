@@ -33,6 +33,9 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   align-content: start;
+  border-radius: 5px 0 0 5px;
+  background: var(--c12) url("../../img/dec/bottom-left.svg") no-repeat bottom
+    20px left 20px;
 }
 .orcamento-produto label {
   font: 400 1rem/1.5 "Poppins", sans-serif;
@@ -92,7 +95,9 @@
 }
 .orcamento-dados {
   border-radius: 0 5px 5px 0;
-  background-color: var(--w);
+  border-radius: 0 5px 5px 0;
+  background: var(--w) url("../../img/dec/bottom-right.svg") no-repeat bottom
+    20px right 20px;
 }
 
 .orcamento-conteudo {
@@ -144,6 +149,7 @@
   }
   .orcamento-produto {
     border-radius: 5px 5px 0 0;
+    background: var(--c12);
   }
 }
 
