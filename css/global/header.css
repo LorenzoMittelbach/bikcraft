@@ -28,12 +28,14 @@
   display: block;
   height: 2px;
   width: 0%;
+  background: var(--w);
   margin-top: 4px;
   position: absolute;
-}
-.header-menu a:hover:after {
-  width: 100%;
   transition: 300ms;
+}
+.header-menu a:hover:after,
+.header-menu a.ativo::after {
+  width: 100%;
 }
 
 @media (max-width: 800px) {
